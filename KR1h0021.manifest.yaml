@@ -1,0 +1,75 @@
+canonical_identifier: bkk:krp/KR1h0021/v1
+canonical_location: https://kanripo.org/bkk/KR1h0021/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 癸巳論語解
+  date: '2016-04-12 13:59:51.038732'
+  source:
+    repository: kanripo
+    path: KR1h0021
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1h0021_000.yaml, hash: 'sha256:e5ab0121108f6a6a4347746b9e7b6983e3d26a99f1c1094ea7ce6526d7778c63'}
+  - {seq: 1, filename: KR1h0021_001.yaml, hash: 'sha256:8b020fc0ee79e097ca8fa6634bd2170dcc094eb655cd9085790f050cfc9ef42d'}
+  - {seq: 2, filename: KR1h0021_002.yaml, hash: 'sha256:b9d3c83f76dfb9bdff117a1c4e427db855e27f9eaa7568d3944e33eadca5b101'}
+  - {seq: 3, filename: KR1h0021_003.yaml, hash: 'sha256:dc7b3e04b03bb0a14b81e6bf875faff9c7e40c8ec1ea94b076fe0277c6bb72d0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1h0021_000.markers.yaml, hash: 'sha256:7907871ad525e99aedb6fe09a4adbfeca13f21051ad761265eae6e0306c837a9'}
+  - {seq: 1, role: markers, filename: assets/KR1h0021_001.markers.yaml, hash: 'sha256:1e5a32e55a4191d6078b256f325b919d63e6b6f1d219823f7e81ad66b311d406'}
+  - {seq: 2, role: markers, filename: assets/KR1h0021_002.markers.yaml, hash: 'sha256:0ae00924b8bb875c42fa378905282b9ca53943bfc91374e1ab981ac50a17730c'}
+  - {seq: 3, role: markers, filename: assets/KR1h0021_003.markers.yaml, hash: 'sha256:dbcc049bd3cf02770d51dd525e192d86178ecfcb0518ff1e5d01355bc18482b6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1h0021_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 51769
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1h0021_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 7419
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1h0021_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 5750
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR1h0021_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 4646
+  label: juan 003
+  type: section
+  level: 1
+hash: sha256:4ddda2dbfd70e91b89872b0abc6fe1b1f8d9e566df557e333246f3489970fcc5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: WYG
